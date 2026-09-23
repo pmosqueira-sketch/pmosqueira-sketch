@@ -60,7 +60,7 @@ Quedan varias preguntas abiertas, y las hacemos con la información pública dis
 
 Hay un aspecto del caso que va más allá de la ciberseguridad. Gómez Villaseñor ha relatado públicamente que, cuando informó del robo hace casi un año, **el dueño del medio donde trabajaba intentó intimidarlo** para que dejara de hablar del tema. Según su testimonio, le dio a entender que había **una queja directa de Aeroméxico**, uno de los principales clientes del medio. **Dos meses después, lo despidieron.**
 
-Es su versión y no la hemos verificado de forma independiente. Tampoco encontramos una respuesta pública de Aeroméxico o del medio a esta acusación. Pero el contraste es difícil de ignorar: lo que se intentó silenciar en 2025 es lo que la propia aerolínea confirma en 2026. Cuando informar sobre una filtración le cuesta el empleo a quien lo hace, los primeros perjudicados son los 15 millones de clientes que se habrían enterado a tiempo.
+Es su versión y no la hemos verificado de forma independiente. Tampoco encontramos una respuesta pública de Aeroméxico o del medio a esta acusación. Pero el contraste es difícil de ignorar: lo que, según su relato, se intentó silenciar en 2025 es lo que la propia aerolínea confirma en 2026. Cuando informar sobre una filtración le cuesta el empleo a quien lo hace, los primeros perjudicados son los 15 millones de clientes que se habrían enterado a tiempo.
 
 ## Por qué "solo nombres y correos" sí es grave
 
