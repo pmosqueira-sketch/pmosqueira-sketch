@@ -3,7 +3,7 @@ titulo: "Aeroméxico y los 15 millones de registros en Telegram: un robo de 2025
 fecha: 2026-09-23
 autor: Pablo Mosqueira
 categoria: Ciberseguridad / Protección de datos
-etiquetas: [Aeroméxico, Ignacio Gómez Villaseñor, libertad de prensa, filtración de datos, Salesforce, ShinyHunters, terceros, LFPDPPP, SABG, phishing]
+etiquetas: [Aeroméxico, filtración de datos, Salesforce, ShinyHunters, terceros, LFPDPPP, SABG, phishing]
 estado: borrador
 ---
 
@@ -11,7 +11,7 @@ estado: borrador
 
 **En resumen:** El 18 de septiembre de 2026 alguien puso a la venta en Telegram una base de datos con más de 15 millones de registros atribuidos a clientes de Aeroméxico. La Secretaría Anticorrupción y Buen Gobierno (SABG) la detectó y lo hizo público el 20 de septiembre. Un día después, Aeroméxico dijo que los datos probablemente vienen de un incidente de **octubre de 2025**, cuando se accedió sin autorización a una plataforma de gestión de clientes **administrada por un proveedor externo**. No hubo datos bancarios ni contraseñas, pero sí nombres, correos, teléfonos y fechas de nacimiento. Con eso basta para montar campañas de fraude muy convincentes.
 
-Nada de esto era nuevo. En octubre de 2025, el periodista especializado en ciberseguridad Ignacio Gómez Villaseñor ya había documentado el robo, su origen en Salesforce y el riesgo de fraude para millones de clientes. El segundo comunicado de la aerolínea confirma lo esencial de lo que él reportó hace casi un año.
+Nada de esto era nuevo. Desde octubre de 2025, Aeroméxico aparecía en el sitio de extorsión de ShinyHunters, con fecha de ataque del **4 de julio de 2025**, y el periodista especializado en ciberseguridad Ignacio Gómez Villaseñor lo había reportado públicamente. El segundo comunicado de la aerolínea confirma lo esencial de esa información.
 
 El incidente deja tres lecciones para cualquier empresa mexicana. La información robada no caduca. El riesgo de terceros es riesgo propio. Y "no se publicó en su momento" no significa "no pasó nada".
 
@@ -22,6 +22,7 @@ El incidente deja tres lecciones para cualquier empresa mexicana. La informació
 | Fecha | Hecho |
 |---|---|
 | **Jun–oct 2025** | Una campaña internacional de robo de datos en entornos **Salesforce** afecta a cientos de organizaciones en todo el mundo. La atribuyen a grupos que operan juntos como *Scattered LAPSUS$ Hunters* (ShinyHunters, Scattered Spider y Lapsus$). |
+| **4 jul 2025** | Fecha del ataque contra Aeroméxico según el registro del grupo ShinyHunters que recoge el rastreador independiente ransomware.live, y según los metadatos del archivo robado. |
 | **3 oct 2025** | El colectivo abre un sitio de filtraciones con **39 empresas** afectadas, entre ellas **Aeroméxico**, y amenaza con publicar su información si no se paga un rescate antes del 10 de octubre. |
 | **3–4 oct 2025** | Ignacio Gómez Villaseñor publica en X que la muestra contiene **datos reales** de clientes de Aeroméxico. Aclara que no es ransomware sino extorsión tras un robo, y que la vulneración se originó en **Salesforce**: los registros tienen la estructura nativa de ese CRM (cuentas, contactos, reservaciones). |
 | **10 oct 2025** | El FBI y la unidad francesa BL2C incautan el dominio de extorsión. La versión *onion* sigue en línea y parte de los datos se filtra. |
@@ -48,19 +49,12 @@ En su comunicado del 21 de septiembre, la aerolínea afirma lo siguiente:
 - El acceso no autorizado ocurrió en una **plataforma de gestión de información de clientes administrada por un proveedor externo**. La aerolínea no dice cuál. El formato de los datos, la lista del grupo atacante y el análisis que Gómez Villaseñor publicó en 2025 apuntan a **Salesforce**.
 - "En ese momento, no se materializó la divulgación de datos de clientes de Aeroméxico por parte de los ciberdelincuentes."
 
-**¿A quién afecta?** Según Gómez Villaseñor, la base incluye a **15.1 millones de personas**: todas las que **compraron un vuelo entre 2019 y 2025**. Aclara que son los datos de **quien hizo la reservación**, no necesariamente de quienes abordaron. Quien compró boletos para su familia o su empresa está en la base; los pasajeros por los que pagó quizá no. Aeroméxico no ha precisado el periodo ni el número de personas afectadas.
-
 Quedan varias preguntas abiertas, y las hacemos con la información pública disponible:
 
 1. **Hay cifras distintas.** En 2025 los atacantes hablaron de volúmenes mayores (se mencionaron 172.9 GB con direcciones, pasaportes y reservaciones). Hoy la base en Telegram tiene 15 millones de registros y 1.10 GB. Las dos cosas pueden ser ciertas a la vez: lo que se vende ahora puede ser un subconjunto "limpio" del botín original. Todavía no se sabe si hay más.
-2. **La fecha del incidente.** Aeroméxico habla de "octubre de 2025". Algunas fuentes de inteligencia de amenazas fechan la intrusión antes, a mediados de 2025, y octubre sería el mes en que se hizo pública. La diferencia importa para medir cuánto tiempo estuvieron expuestos los datos.
-3. **La notificación a los titulares.** Desde marzo de 2025, la nueva LFPDPPP obliga a informar **de inmediato** a las personas afectadas cuando una vulneración afecta de forma significativa sus derechos patrimoniales o morales (art. 19). No encontramos un aviso público y generalizado a clientes en 2025, aunque la empresa ahora reconoce que conocía el incidente desde entonces. Si los datos se robaron entonces, la pregunta no es si se divulgaron, sino si los titulares tuvieron oportunidad de protegerse.
-
-## Informar tuvo un costo
-
-Hay un aspecto del caso que va más allá de la ciberseguridad. Gómez Villaseñor ha relatado públicamente que, cuando informó del robo hace casi un año, **el dueño del medio donde trabajaba intentó intimidarlo** para que dejara de hablar del tema. Según su testimonio, le dio a entender que había **una queja directa de Aeroméxico**, uno de los principales clientes del medio. **Dos meses después, lo despidieron.**
-
-Es su versión y no la hemos verificado de forma independiente. Tampoco encontramos una respuesta pública de Aeroméxico o del medio a esta acusación. Pero el contraste es difícil de ignorar: lo que, según su relato, se intentó silenciar en 2025 es lo que la propia aerolínea confirma en 2026. Cuando informar sobre una filtración le cuesta el empleo a quien lo hace, los primeros perjudicados son los 15 millones de clientes que se habrían enterado a tiempo.
+2. **La fecha del incidente.** Aeroméxico habla de "octubre de 2025". Pero el registro del grupo atacante (recogido por ransomware.live y Resecurity) y los metadatos del archivo fechan el robo el **4 de julio de 2025**. Octubre fue cuando se hizo público. Es decir, los datos llevan más de 14 meses en manos de los delincuentes.
+3. **¿Cuántas personas y qué periodo?** Aeroméxico no ha precisado cuántos clientes están afectados ni de qué años son las reservaciones. Circulan cifras distintas (15, 30 y 39 millones de registros), pero ninguna está confirmada por la empresa ni por la autoridad.
+4. **La notificación a los titulares.** Desde marzo de 2025, la nueva LFPDPPP obliga a informar **de inmediato** a las personas afectadas cuando una vulneración afecta de forma significativa sus derechos patrimoniales o morales (art. 19). No encontramos un aviso público y generalizado a clientes en 2025, aunque la empresa ahora reconoce que conocía el incidente desde entonces. Si los datos se robaron entonces, la pregunta no es si se divulgaron, sino si los titulares tuvieron oportunidad de protegerse.
 
 ## Por qué "solo nombres y correos" sí es grave
 
@@ -112,7 +106,7 @@ Además de ser obligatorio, notificar permite que los clientes se protejan cuand
 
 ## Qué deben hacer los clientes de Aeroméxico
 
-Si **compraste un vuelo con Aeroméxico entre 2019 y 2025**, asume que tus datos de contacto están en esa base.
+Si **has comprado vuelos con Aeroméxico**, asume que tus datos de contacto pueden estar en esa base.
 
 - **Desconfía** de correos, SMS, WhatsApp o llamadas que mencionen tu vuelo, tu reservación o tu programa de lealtad y pidan datos, pagos o "validaciones". Verifica siempre en los canales oficiales, escribiendo tú la dirección o marcando tú el número.
 - **Nunca compartas** códigos de verificación (OTP) ni contraseñas por teléfono.
@@ -132,7 +126,8 @@ El caso Aeroméxico no se trata de una aerolínea "hackeada" en septiembre de 20
 
 - Aeroméxico, comunicado "Aeroméxico informa avances de su investigación forense", 21 de septiembre de 2026.
 - Excélsior — [Aeroméxico responde a versiones sobre supuesta base de datos](https://www.excelsior.com.mx/nacional/aeromexico-responde-versiones-sobre-supuesta-bases-datos) (primer comunicado, 20 de septiembre de 2026)
-- Ignacio Gómez Villaseñor en X — [evidencia de robo de datos reales de Aeroméxico (oct 2025)](https://x.com/ivillasenor/status/1974497366951571773) y [origen en Salesforce (oct 2025)](https://x.com/ivillasenor/status/1974170489456075164); comentarios publicados en X tras el comunicado del 21 de septiembre de 2026.
+- Ignacio Gómez Villaseñor en X — [evidencia de robo de datos reales de Aeroméxico (oct 2025)](https://x.com/ivillasenor/status/1974497366951571773) y [origen en Salesforce (oct 2025)](https://x.com/ivillasenor/status/1974170489456075164); [listado de Aeroméxico por ShinyHunters (oct 2025)](https://x.com/ivillasenor/status/1974163761754759217).
+- ransomware.live — registro de víctimas en México: Aeroméxico, grupo ShinyHunters, fecha de ataque 4 de julio de 2025 (consultado vía inteligencia interna QMA).
 - El Imparcial — [Secretaría Anticorrupción investiga una posible filtración de más de 15 millones de datos de pasajeros de Aeroméxico](https://www.elimparcial.com/mexico/2026/09/20/secretaria-anticorrupcion-investiga-una-posible-filtracion-de-mas-de-15-millones-de-datos-de-pasajeros-de-aeromexico-ofrecidos-en-telegram-y-analiza-una-muestra-de-100-mil-registros/)
 - Xataka México — [Detectan posible filtración de datos de Aeroméxico en Telegram](https://www.xataka.com.mx/seguridad/detectan-posible-filtracion-datos-aeromexico-telegram-base-tendria-15-millones-registros)
 - El Informador — [Anticorrupción investigará presunta filtración de base de datos de la aerolínea](https://www.informador.mx/mexico/aeromexico-apareces-tu-anticorrupcion-investigara-presunta-filtracion-de-base-de-datos-de-la-aerolinea-en-telegram-20260920-0085.html)
