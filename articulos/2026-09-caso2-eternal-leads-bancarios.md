@@ -53,3 +53,24 @@ Basta una de estas:
 - [Capital México: Reportan venta de información de clientes bancarios](https://www.capitalmexico.com.mx/tema-dia/tus-datos-estan-en-riesgo-reportan-venta-de-informacion-de-clientes-bancarios/)
 - [Xataka México: atribución de SILIKN a "Eternal" (caso Aeroméxico)](https://www.xataka.com.mx/seguridad/detectan-posible-filtracion-datos-aeromexico-telegram-base-tendria-15-millones-registros)
 - [Fortuna y Poder: Aeroméxico confirma oferta de datos en Telegram](https://fortunaypoder.com/corporativos/aeromexico-confirma-oferta-de-datos-de-clientes-en-telegram-descarta-informacion-financiera)
+
+## Registro en inteligencia QMA (2026-09-23)
+
+| Caso | Tabla | ID | Estado |
+|---|---|---|---|
+| Aeroméxico | `darkweb_intel` (source `qma_research`, `victim_announcement`) | `5260ade3-3514-4e40-b655-4aa501c14cad` | VERIFICADO |
+| Leads bancarios | `darkweb_intel` (source `qma_research`, `threat_intelligence`) | `8d8c2c1d-3556-45c1-ad45-e387fd6900fe` | SIN CONFIRMAR |
+
+Solo se registraron datos generales del caso, sin información personal. Aeroméxico ya aparecía en `ransomware_mx_victims` (shinyhunters, 2025-07-04).
+
+## Contexto de grupos (pulsos OTX ya ingeridos)
+
+- **ShinyHunters (UNC6240)** sigue activo en 2026:
+  - Robo de datos de Salesforce vía OAuth y vishing, con tres rutas de intrusión documentadas entre mediados de 2025 y mediados de 2026 (pulso del 2026-08-13).
+  - Abuso de la integración de Klue con Salesforce en junio de 2026, etiquetado UNC6395.
+  - Día cero en Oracle PeopleSoft (CVE-2026-35273), mayo y junio de 2026.
+  - Ataque a Instructure Canvas, mayo de 2026.
+- **Ecosistema "The Com":** BlackFile (UNC6671, cerró en abril de 2026), Helix (ago-2026), Pink (CL-CRI-1147) y el panel de phishing "Doko" compartido con ShinyHunters. Todos usan vishing y suplantación de mesa de ayuda.
+- **Eternal:** no aparece en OTX, en ransomware.live ni en `villain_canonical`. Por los dos casos, parece un revendedor o intermediario, no un grupo de intrusión.
+
+El registro de `ransomware_mx_victims` se actualizó por última vez el 2026-04-08. Conviene rehidratarlo.
